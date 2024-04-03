@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
       diasVacaciones = 14;
     } else if ( años >= 5 && años <= 10) {
       diasVacaciones = 21
-    } else if (años > 10) {
+    } else {
       diasVacaciones = 28
     }
   }
