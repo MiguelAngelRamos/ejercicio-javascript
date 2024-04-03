@@ -12,10 +12,10 @@
       <h2 class="text-center mt-5">Calculadora de Antiguedad laboral y Beneficios del Empleado</h2>
       <div class="row">
         <div class="offset-3 col-6">
-          <form class="mt-5">
+          <form id="form-empleado" class="mt-5">
 
             <div class="mb-3">
-              <label for="date-input" class="form-label">Fecha de Inicio (YYYY-MM--DD)</label>
+              <label for="date-input" class="form-label">Fecha de Inicio </label>
               <input type="date" class="form-control" id="date-input" />
             </div>
 
@@ -25,16 +25,20 @@
             </div>
 
             <div class="mb-3">
-              <label for="input-cumple" class="form-label">Fecha de Cumpleaños (YYYY-MM--DD)</label>
+              <label for="input-cumple" class="form-label">Fecha de Cumpleaños </label>
               <input type="date" class="form-control" id="input-cumple" />
             </div>
 
             <button type="submit" class="btn btn-primary">Calcular Información</button>
           </form>
+
+          <p class="mt-5" id="resultado"></p>
         </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
   </body>
 </html>
 
