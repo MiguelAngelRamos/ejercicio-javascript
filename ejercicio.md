@@ -1,4 +1,4 @@
-CONTEXTO
+## CONTEXTO
 Una corporación está buscando optimizar sus operaciones diarias y mejorar la eficiencia de su departamento de Recursos Humanos. Para lograrlo, han identificado una serie de tareas rutinarias y cálculos recurrentes que podrían automatizarse utilizando scripts. Entre estas tareas se incluyen la estimación de los días libres acumulados por los empleados, el cálculo de bonificaciones basadas en la antigüedad, la programación de turnos de trabajo y la gestión de permisos y vacaciones. La corporación cree que implementando soluciones automatizadas para estas tareas, pueden ahorrar tiempo y reducir errores.
 
 PROBLEMA
