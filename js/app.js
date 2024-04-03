@@ -4,9 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Referencias
     const fechaInicio = document.querySelector("#date-input").value;
-    const salarioMensual = document.querySelector("#input-salario").value;
+    //* parseFloat()
+    const salarioMensual = parseFloat(document.querySelector("#input-salario").value);
     const fechaCumple = document.querySelector("#input-cumple").value;
-
+    console.log(Intl.NumberFormat().format(salarioMensual))
     console.log(fechaInicio);
     console.log(salarioMensual);
     console.log(fechaCumple);
